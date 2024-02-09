@@ -1,0 +1,310 @@
+.socialIconsInstance {
+  height: 34px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-indigo-300);
+}
+.enquiriessawindiacom,
+.servicesContactusFrame {
+  height: 34px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.enquiriessawindiacom {
+  flex: 1;
+}
+.servicesContactusFrame {
+  width: 138px;
+  flex-shrink: 0;
+}
+.contactUsFrame,
+.playlistScreenTVDisplayPl {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactUsFrame {
+  align-self: stretch;
+  flex-direction: row;
+}
+.playlistScreenTVDisplayPl {
+  width: 310px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.playList4ScreenTelevisionIcon,
+.socialIcons,
+.socialIcons1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.playList4ScreenTelevisionIcon,
+.socialIcons1 {
+  height: 16px;
+}
+.socialIcons1 {
+  width: 16px;
+}
+.eventsResourcesFrame {
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.enquiryFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-9xl) 0 var(--padding-28xl);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.image1Icon {
+  height: 76px;
+  width: 213px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameRectangleFrameRectanglChild {
+  height: 33px;
+  width: 61px;
+  position: relative;
+  background-color: var(--color-white);
+  transform: rotate(180deg);
+  display: none;
+}
+.home {
+  height: 30px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.frameRectangleFrameRectangl {
+  flex: 1;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-10xs);
+  z-index: 1;
+}
+.about {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-align: left;
+  z-index: 1;
+}
+.cashForecastRectangle,
+.someOfOurClientsText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.someOfOurClientsText {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.cashForecastRectangle {
+  width: 154px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.services {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  z-index: 1;
+}
+.productsSolutionsText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 0;
+}
+.productsSolutions {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.productsSolutionsFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+}
+.events {
+  width: 65px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.events,
+.resources {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  z-index: 1;
+}
+.eventsFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.contactUs {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.productsSolutionsText1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+}
+.careers {
+  width: 77px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.financeAutomationFrameChild {
+  height: 40px;
+  width: 139px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(60, 50, 177, 0.91),
+    rgba(39, 3, 25, 0.37)
+  );
+  display: none;
+}
+.getACall {
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.financeAutomationFrame {
+  background: linear-gradient(
+    180deg,
+    rgba(60, 50, 177, 0.91),
+    rgba(39, 3, 25, 0.37)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-7xs) 0 var(--padding-2xs);
+  white-space: nowrap;
+  z-index: 2;
+}
+.getACallBackText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  color: var(--color-white);
+}
+.frameServicesFrameContactus {
+  width: 913px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mainFrame,
+.purchaseApprovalFrame {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.purchaseApprovalFrame {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+}
+.mainFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-15xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1050px) {
+  .servicesContactusFrame {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .enquiryFrame {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .someOfOurClientsText {
+    display: none;
+  }
+  .cashForecastRectangle {
+    width: 23px;
+  }
+  .eventsFrame,
+  .getACall {
+    display: none;
+  }
+  .frameServicesFrameContactus {
+    width: 566px;
+  }
+}

@@ -1,0 +1,123 @@
+.awardsAndRecognitionsFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.huntBeginButton {
+  position: absolute;
+  height: calc(100% - 2px);
+  top: 2px;
+  bottom: 0;
+  left: 741px;
+  max-height: 100%;
+  width: 608px;
+  object-fit: cover;
+  z-index: 3;
+}
+.endsHere,
+.yourHuntFor {
+  margin: 0;
+}
+.yourHuntForContainer1 {
+  width: 100%;
+}
+.weCreatedSoftware,
+.yourHuntForContainer {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.05em;
+  font-family: inherit;
+  z-index: 4;
+}
+.yourHuntForContainer {
+  top: 28px;
+  font-size: var(--font-size-21xl);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  width: 773px;
+  height: 160px;
+}
+.weCreatedSoftware {
+  top: 200px;
+  font-size: inherit;
+  font-weight: 700;
+  text-align: left;
+  display: inline-block;
+  width: 741px;
+  height: 144px;
+}
+.huntStartChild {
+  height: 82px;
+  width: 390px;
+  position: relative;
+  background: linear-gradient(180deg, #ad32a9 79.01%, rgba(217, 217, 217, 0));
+  display: none;
+  max-width: 100%;
+}
+.beginYourHunt,
+.huntStart {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.beginYourHunt {
+  margin: 0;
+  height: 68px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  font-family: inherit;
+  align-items: center;
+  z-index: 4;
+}
+.huntStart {
+  position: absolute;
+  top: 390px;
+  left: 61px;
+  background: linear-gradient(180deg, #ad32a9 79.01%, rgba(217, 217, 217, 0));
+  width: 392px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 3;
+}
+.awardsAndRecognitionsFrame {
+  position: absolute;
+  top: 3952px;
+  left: 0;
+  width: 100%;
+  height: 542px;
+  background-image: url(/public/rectangle-51@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 800px) {
+  .yourHuntForContainer {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourHuntForContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .weCreatedSoftware {
+    font-size: var(--font-size-lgi);
+  }
+}

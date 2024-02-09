@@ -1,0 +1,237 @@
+.aboutSectionChild {
+  align-self: stretch;
+  height: 935px;
+  position: relative;
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.satisfiedClientsIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.yearsOfExperience {
+  height: 248px;
+  width: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.b {
+  font-family: var(--font-mulish);
+}
+.noteFromCeoCa {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.blankLine,
+.blankLine1,
+.deliverMore,
+.promiseOnly,
+.thanYourPromise,
+.vikramSeth,
+.whatYouCan {
+  margin: 0;
+  font-weight: 800;
+}
+.noteFromCeoContainer,
+.overThePast {
+  position: relative;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  z-index: 2;
+}
+.noteFromCeoContainer {
+  height: 278px;
+  width: 252px;
+  flex-shrink: 0;
+}
+.overThePast {
+  margin: 0;
+  height: 388px;
+  flex: 1;
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-family: inherit;
+  min-width: 493px;
+  max-width: 100%;
+}
+.noteFromCEO {
+  width: 1032px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.companyBackground,
+.noteFromCEO,
+.yearsOfExperienceParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.yearsOfExperienceParent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.companyBackground {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.whileThereAre {
+  margin: 0;
+}
+.definingTheirNeeds,
+.makingTheRight,
+.matchingTheNeeds {
+  margin-bottom: 0;
+}
+.definingTheirNeedsMatching {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.bothOurDivisions {
+  margin: 0;
+}
+.affordableToBuy,
+.easyToUse,
+.rapidlyDeployableAnd {
+  margin-bottom: 0;
+}
+.affordableToBuyAndMaintain {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.ourAssociationWithThe {
+  margin: 0;
+}
+.whileThereAreContainer {
+  margin: 0;
+  height: 388px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.ourTeam {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-7xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.findYourSoftware {
+  margin: 0;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.awardsAndRecognitions {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(86, 29, 143, 0.88) 99.99%,
+    rgba(217, 217, 217, 0)
+  );
+  z-index: 2;
+  margin-left: -282px;
+}
+.aboutSection,
+.findYourSoftwareHereParent,
+.someOfOurClients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.findYourSoftwareHereParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.aboutSection,
+.someOfOurClients {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.someOfOurClients {
+  width: 322px;
+  height: 52px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  color: var(--color-white);
+}
+.aboutSection {
+  position: absolute;
+  top: 1408px;
+  left: 0;
+  background-color: var(--color-darkgray);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-43xl) var(--padding-smi) var(--padding-mini);
+  gap: var(--gap-xs);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1300px) {
+  .yearsOfExperienceParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .noteFromCEO {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .overThePast {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findYourSoftware,
+  .noteFromCeoContainer,
+  .overThePast,
+  .whileThereAreContainer {
+    font-size: var(--font-size-base);
+  }
+}

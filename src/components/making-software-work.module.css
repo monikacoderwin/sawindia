@@ -1,0 +1,120 @@
+.makingSoftwareWorkChild {
+  width: 1349px;
+  height: 442px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.ourTeam,
+.quickLinks {
+  display: flex;
+  max-width: 100%;
+}
+.ourTeam {
+  margin: 0;
+  height: 76px;
+  width: 416px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.quickLinks {
+  width: 504px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blogsIcon,
+.blogsIcon1,
+.caseStudiesIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.caseStudiesIcon {
+  align-self: stretch;
+  flex: 1;
+}
+.events {
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.events,
+.makingSoftwareWork,
+.socialIcons {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialIcons {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  grid-template-columns: repeat(3, minmax(279px, 1fr));
+}
+.makingSoftwareWork {
+  position: absolute;
+  top: 2344px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-105xl) var(--padding-81xl)
+    var(--padding-50xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1125px) {
+  .socialIcons {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(279px, 484px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .ourTeam {
+    font-size: var(--font-size-10xl);
+  }
+  .blogsIcon,
+  .blogsIcon1 {
+    width: 100%;
+  }
+  .socialIcons {
+    grid-template-columns: minmax(279px, 1fr);
+  }
+  .makingSoftwareWork {
+    gap: var(--gap-17xl);
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourTeam {
+    font-size: var(--font-size-3xl);
+  }
+  .makingSoftwareWork {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

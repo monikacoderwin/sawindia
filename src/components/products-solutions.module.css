@@ -1,0 +1,366 @@
+.tallyERPNextClearChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.tallyERPNextClearItem {
+  position: absolute;
+  top: 113px;
+  left: 19px;
+  width: 270px;
+  height: 83px;
+  object-fit: cover;
+  z-index: 2;
+}
+.tallyERPNextClear {
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.businessesSinceThe,
+.makingSoftwareWork {
+  margin: 0;
+}
+.makingSoftwareWorkContainer {
+  height: 40px;
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.makingSoftwareWorkForSmallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-53xl) 0 0;
+  box-sizing: border-box;
+  min-width: 345px;
+  max-width: 100%;
+}
+.quickLinks1 {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.quickLinks {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.blankLine1 {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.blankLine {
+  margin: 0;
+}
+.blankLine3 {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.blankLine2 {
+  margin: 0;
+}
+.blo2 {
+  text-decoration: underline;
+}
+.blo1 {
+  letter-spacing: 0.1em;
+}
+.blo {
+  color: inherit;
+}
+.gs {
+  letter-spacing: 0.1em;
+}
+.blogs {
+  margin-bottom: 0;
+}
+.events3 {
+  text-decoration: underline;
+}
+.events2 {
+  letter-spacing: 0.1em;
+}
+.events1 {
+  color: inherit;
+}
+.events {
+  margin-bottom: 0;
+}
+.services3 {
+  text-decoration: underline;
+}
+.services2 {
+  letter-spacing: 0.1em;
+}
+.services1 {
+  color: inherit;
+}
+.services {
+  margin-bottom: 0;
+}
+.caseStudies3 {
+  text-decoration: underline;
+}
+.caseStudies2 {
+  letter-spacing: 0.1em;
+}
+.caseStudies1 {
+  color: inherit;
+}
+.caseStudies {
+  margin-bottom: 0;
+}
+.privacyPolicy2 {
+  text-decoration: underline;
+}
+.privacyPolicy1 {
+  letter-spacing: 0.1em;
+}
+.privacyPolicy {
+  color: inherit;
+}
+.blogsEventsServicesCaseStu {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.quickLinksBlogsContainer {
+  height: 288px;
+  width: 137px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 137px;
+  z-index: 2;
+}
+.quickLinksSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  min-width: 534px;
+  max-width: 100%;
+}
+.productsSolutions2 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-mulish);
+}
+.blankLine4,
+.blankLine5,
+.productsSolutions1 {
+  margin: 0;
+}
+.tallySolutions2 {
+  text-decoration: underline;
+}
+.tallySolutions1 {
+  color: inherit;
+}
+.tallySolutions {
+  margin-bottom: 0;
+}
+.erpnext2 {
+  text-decoration: underline;
+}
+.erpnext1 {
+  color: inherit;
+}
+.erpnext {
+  margin-bottom: 0;
+}
+.cleartax2 {
+  text-decoration: underline;
+}
+.cleartax1 {
+  color: inherit;
+}
+.cleartax {
+  margin-bottom: 0;
+}
+.tallySolutionsErpnextCleart {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.productsSolutionsContainer {
+  height: 211px;
+  width: 241px;
+  position: relative;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 241px;
+  z-index: 2;
+}
+.connect1 {
+  font-size: var(--font-size-xl);
+}
+.blankLine6,
+.blankLine7,
+.blankLine8,
+.connect {
+  margin: 0;
+}
+.span {
+  text-decoration: underline;
+}
+.a {
+  color: inherit;
+}
+.p {
+  margin: 0;
+}
+.blankLine11 {
+  text-decoration: underline;
+}
+.blankLine10 {
+  color: inherit;
+}
+.blankLine9 {
+  margin: 0;
+}
+.enquiriessawindiacom2 {
+  text-decoration: underline;
+}
+.enquiriessawindiacom1 {
+  color: inherit;
+}
+.enquiriessawindiacom {
+  margin: 0;
+}
+.blankLine14 {
+  text-decoration: underline;
+}
+.blankLine13 {
+  color: inherit;
+}
+.blankLine12 {
+  margin: 0;
+}
+.magnumOpusShantinagar {
+  text-decoration: underline;
+}
+.magnumOpusShantinagarVako1 {
+  color: inherit;
+}
+.magnumOpusShantinagarVako {
+  margin: 0;
+}
+.connect91730Container {
+  align-self: stretch;
+  height: 245px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.socialIcons,
+.socialIcons1,
+.socialIcons2 {
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  top: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.socialIcons {
+  width: 53.3px;
+  left: 63px;
+}
+.socialIcons1,
+.socialIcons2 {
+  width: 30px;
+  right: 112px;
+}
+.socialIcons2 {
+  right: 56px;
+}
+.tallySolutionsClear {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 185px;
+  text-align: center;
+}
+.productsSolutions,
+.quickLinksSection1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.quickLinksSection1 {
+  width: 570px;
+  gap: var(--gap-26xl);
+  min-width: 570px;
+}
+.productsSolutions {
+  position: absolute;
+  top: 4894px;
+  left: 0;
+  width: 100%;
+  padding: var(--padding-58xl) var(--padding-lgi) 0;
+  box-sizing: border-box;
+  gap: var(--gap-89xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1300px) {
+  .quickLinksSection,
+  .quickLinksSection1 {
+    flex: 1;
+  }
+  .productsSolutions {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .makingSoftwareWorkForSmallWrapper,
+  .quickLinksBlogsContainer {
+    flex: 1;
+  }
+  .quickLinksSection {
+    flex-wrap: wrap;
+    gap: var(--gap-33xl);
+    min-width: 100%;
+  }
+  .productsSolutionsContainer {
+    flex: 1;
+  }
+  .quickLinksSection1 {
+    flex-wrap: wrap;
+    gap: var(--gap-26xl);
+    min-width: 100%;
+  }
+  .productsSolutions {
+    gap: var(--gap-89xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .makingSoftwareWorkForSmallWrapper {
+    min-width: 100%;
+  }
+  .productsSolutions {
+    gap: var(--gap-89xl);
+  }
+}

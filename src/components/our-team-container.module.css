@@ -1,0 +1,131 @@
+.someOfOur,
+.teamText {
+  display: flex;
+  max-width: 100%;
+}
+.someOfOur {
+  margin: 0;
+  height: 102px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 900;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.teamText {
+  width: 621px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.productsSolutionsRectangle,
+.quickLinksText {
+  height: 108px;
+  width: 207px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.productsSolutionsRectangle {
+  height: 99px;
+  width: 231px;
+}
+.awardsRecognitionsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.caseStudiesText,
+.caseStudiesText1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 153px;
+  min-height: 87px;
+  z-index: 2;
+}
+.blogsText,
+.eventsText {
+  display: flex;
+  align-items: flex-start;
+}
+.eventsText {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.blogsText {
+  width: 482px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.socialIconsContainer {
+  height: 86px;
+  width: 250px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.beginYourHuntFrame,
+.ourTeamContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+}
+.ourTeamContainer {
+  position: absolute;
+  top: 3560px;
+  left: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1300px) {
+  .beginYourHuntFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .someOfOur {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .someOfOur {
+    font-size: var(--font-size-3xl);
+  }
+  .quickLinksText {
+    flex: 1;
+  }
+  .awardsRecognitionsContainer,
+  .eventsText {
+    flex-wrap: wrap;
+  }
+}
